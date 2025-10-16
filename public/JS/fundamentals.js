@@ -39,8 +39,8 @@ function initialize() {
   document.getElementById("arraylength").innerHTML = my_array.length;
 
   let text = "";
-  for (i = 0; i < 25; i = i + 4) {
-    text += "The number is " + i + "<br>";
+  for (i = 0; i < 100; i += 5) {
+    text += " # " + i;
   }
   document.getElementById("forloop").innerHTML = text;
 
