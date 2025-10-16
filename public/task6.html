@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4-6</title>
+    <script type="text/javascript" src="JS/task6.js"></script>
+  </head>
+  <body>
+    <h1>Shopping Calculator</h1>
+    <form action="">
+      <fieldset>
+        <table>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>6 Apples</td>
+          <td><input type="number" name="entry" id="e1" value="2.00"></td>
+        </tr>
+        <tr>
+          <td>Grapes</td>
+          <td><input type="number" name="entry" id="e2" value="3.00"></td>
+        </tr>
+        <tr>
+          <td>12 Oranges</td>
+          <td><input type="number" name="entry" id="e3" value="3.00"></td>
+        </tr>
+        </table>
+        <p>Discount</p>
+        <input type="number" name="discount" id="d1" value="25">
+        <br>
+        <input type="button" value="calculate" onclick="totup(this.form)">
+      </fieldset>
+      <p>Total Cost <span id="totalled"></span></p>
+    </form>
+  </body>
+</html>

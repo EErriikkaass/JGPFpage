@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4-7</title>
+    <script type="text/javascript" src="JS/task6.js"></script>
+  </head>
+  <body>
+    <h1>Shopping Calculator</h1>
+    <form action="">
+      <fieldset>
+        <table>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Milk</td>
+          <td><input type="number" name="entry" id="e1" value="0.90"></td>
+        </tr>
+        <tr>
+          <td>Bread</td>
+          <td><input type="number" name="entry" id="e2" value="0.85"></td>
+        </tr>
+        <tr>
+          <td>Cold Meat</td>
+          <td><input type="number" name="entry" id="e3" value="1.75"></td>
+        </tr>
+        <tr>
+          <td>Eggs</td>
+          <td><input type="number" name="entry" id="e4" value="1.10"></td>
+        </tr>
+        <tr>
+          <td>Cake</td>
+          <td><input type="number" name="entry" id="e5" value="1.50"></td>
+        </tr>
+        <tr>
+          <td>Carrot</td>
+          <td><input type="number" name="entry" id="e6" value="0.70"></td>
+        <tr>
+        </tr>
+          <td>Potatoes</td>
+          <td><input type="number" name="entry" id="e7" value="1.50"></td>
+        </tr>
+        <tr>
+          <td>Cheese</td>
+          <td><input type="number" name="entry" id="e8" value="2.60"></td>
+        </tr>
+        <tr>
+          <td>Fish</td>
+          <td><input type="number" name="entry" id="e9" value="3.25"></td>
+        </tr>
+        <tr>
+          <td>Bacon</td>
+          <td><input type="number" name="entry" id="e10" value="1.60"></td>
+        </tr>
+        </table>
+        <p>Discount</p>
+        <input type="number" name="discount" id="d1" value="40">
+        <br>
+        <input type="button" value="calculate" onclick="totup(this.form)">
+      </fieldset>
+      <p>Total Cost <span id="totalled"></span></p>
+    </form>
+  </body>
+</html>
